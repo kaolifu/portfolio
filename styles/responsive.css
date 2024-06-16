@@ -1,0 +1,408 @@
+@media (max-width: 768px) {
+  main .work {
+    padding: 32px 0;
+    height: 720px;
+  }
+  main .work .book-bg {
+    right: 5%;
+    top: 10%;
+    left: auto;
+    transform: none;
+  }
+  main .work .flower {
+    right: 0;
+    left: auto;
+    transform: none;
+    width: 15%;
+  }
+  main .work .flower:hover {
+    transform: rotate(360deg);
+  }
+  main .work .gross {
+    bottom: -40%;
+  }
+  main .work .book {
+    margin-top: 32px;
+  }
+  main .work .book .book-page {
+    height: 560px;
+  }
+  main .work .book .book-page .page-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+  main .work .book .book-page .page-content .page-img {
+    height: 180px;
+  }
+  main .work .book .book-page .page-content .page-text .tags {
+    margin-top: 8px;
+  }
+  main .work .book .book-page .page-content .page-text .tags .tag {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+  main .work .book .book-page .page-doodle2 {
+    bottom: 5%;
+  }
+  main .work .book .book-left .page-left {
+    padding: 72px 48px;
+  }
+  main .work .book .book-right .page-right {
+    padding: 72px 48px;
+  }
+  main .skill {
+    padding: 32px 0;
+    overflow: hidden;
+  }
+  main .skill .balls-group {
+    margin-top: 48px;
+    gap: 0;
+    justify-content: space-between;
+  }
+  main .skill .balls-group .balls {
+    width: calc((100% - 90px) / 3);
+  }
+  main .skill .balls-group .balls .paper {
+    width: 8px;
+    height: 8px;
+  }
+  main .skill .balls-group .balls .skill-list ul {
+    font-size: 20px;
+  }
+  main .skill .balls-group .balls .skill-list ul li {
+    font-size: 14px;
+  }
+  main .skill .room {
+    height: 600px;
+    background-size: 130%;
+    background-position-y: 75%;
+  }
+  main .skill .room .car {
+    width: 80px;
+    bottom: 120px;
+    left: 0px;
+  }
+  main .contact .contact-panel {
+    padding: 32px 48px;
+  }
+  main .contact .contact-panel .en {
+    font-size: 20px;
+  }
+  main .contact .contact-panel .jp {
+    font-size: 16px;
+  }
+}
+@media (max-width: 520px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    overflow: hidden;
+  }
+  header .header-bar .header-right .pc-menu {
+    display: none;
+  }
+  header .header-bar .header-right .sp-menu {
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+  }
+  header .header-bar .header-right .sp-menu .sp-menu-bar {
+    height: 3px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    transition: 0.3s;
+  }
+  header .header-bar .header-right .sp-menu .bar-1 {
+    top: 15%;
+    left: 0%;
+  }
+  header .header-bar .header-right .sp-menu .bar-2 {
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+  }
+  header .header-bar .header-right .sp-menu .bar-3 {
+    bottom: 15%;
+    left: 0%;
+  }
+  header .header-bar .header-right #sp-menu.sp-menu.menu-open .bar-1 {
+    transform: rotate(45deg);
+    top: 50%;
+  }
+  header .header-bar .header-right #sp-menu.sp-menu.menu-open .bar-2 {
+    transform: translate(-100%, -50%);
+  }
+  header .header-bar .header-right #sp-menu.sp-menu.menu-open .bar-3 {
+    transform: rotate(-45deg);
+    top: 50%;
+  }
+  header .header-bar .header-right .roulette {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 120px;
+    height: 120px;
+    border-radius: 0 0 100% 0;
+    background: #fff;
+    transform-origin: 0% 0%;
+    transition: transform 0.3s;
+    z-index: 1;
+  }
+  header .header-bar .header-right .roulette ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  header .header-bar .header-right .roulette ul a {
+    display: inline-block;
+    transform: translateX(-120%);
+    text-decoration: none;
+    color: inherit;
+  }
+  header .header-bar .header-right .roulette ul .sp-menu-nav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 0%;
+  }
+  header .header-bar .header-right .roulette ul .first {
+    transform: rotate(-100deg) translate(-120px, 0px);
+  }
+  header .header-bar .header-right .roulette ul .second {
+    transform: rotate(-120deg) translate(-120px, 0px);
+  }
+  header .header-bar .header-right .roulette ul .third {
+    transform: rotate(-140deg) translate(-120px, 0px);
+  }
+  header .header-bar .header-right .roulette ul .fourth {
+    transform: rotate(-160deg) translate(-120px, 0px);
+  }
+  header .header-bar .header-right .rouleette-rotate {
+    transform: rotate(90deg);
+  }
+  header #hero {
+    height: 600px;
+    margin-top: 0;
+  }
+  header #hero .mv {
+    width: 100%;
+    height: 100%;
+  }
+  header #hero .mv .mv-img {
+    width: 60%;
+  }
+  header #hero .mv .bubble-message {
+    bottom: auto;
+    top: 0;
+    left: 0;
+    width: 80%;
+  }
+  header #hero .mv .bubble-message .bubble {
+    transform: rotate(25deg);
+    height: 340px;
+  }
+  header #hero .mv .bubble-message .message {
+    transform: none;
+    top: 25%;
+    width: 100%;
+  }
+  header #hero .mv .bubble-message .message .message-sm {
+    margin-top: 8px;
+  }
+  header #hero .mv .bubble-message .jp .message-sm {
+    width: 90%;
+  }
+  header #hero .mv #sun-moon-btn {
+    width: 20%;
+    top: 57.5%;
+  }
+  header #hero .mv .sun {
+    width: 25%;
+    top: 55%;
+    height: 45%;
+  }
+  header #hero .mv .moon {
+    width: 20%;
+    top: 100%;
+    height: 45%;
+  }
+  header #hero .mv .star1 {
+    width: 20%;
+    left: -5%;
+    right: auto;
+    bottom: 80%;
+  }
+  header #hero .mv .star2 {
+    width: 20%;
+    right: 10%;
+    bottom: 80%;
+  }
+  header #hero .mv .spiral1 {
+    width: 10%;
+    bottom: 20%;
+  }
+  header #hero .mv .spiral2 {
+    width: 7.5%;
+    right: 45%;
+    bottom: 20%;
+  }
+  header #hero .mv .spiral3 {
+    width: 7.5%;
+    bottom: 35%;
+  }
+  header #hero .mv .ground-bg {
+    width: 60%;
+  }
+  header #hero .mv .cloud {
+    bottom: 50%;
+    right: 5%;
+    width: 25%;
+  }
+  header #hero .mv .rain {
+    bottom: 45%;
+    right: 5%;
+    width: 25%;
+  }
+  header #hero .mv #bat {
+    width: 20%;
+    bottom: 45%;
+    right: -10%;
+  }
+  header #hero .mv .spring {
+    display: none;
+  }
+  header #hero .mv .light {
+    width: 15%;
+    bottom: 35%;
+    right: 45%;
+    transform: rotate(-10deg);
+  }
+  main .work {
+    height: 800px;
+    padding: 16px 0;
+  }
+  main .work .book-bg {
+    display: none;
+  }
+  main .work .flower {
+    top: 5%;
+    right: 5%;
+    width: 20%;
+  }
+  main .work .gross {
+    bottom: 0;
+    left: 10%;
+  }
+  main .work .book {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  main .work .book .book-left {
+    height: 360px;
+  }
+  main .work .book .book-left .page-left {
+    height: 100%;
+    background-image: url(../img/book-up.png);
+    padding: 48px 48px 0px 48px;
+  }
+  main .work .book .book-right {
+    height: 360px;
+  }
+  main .work .book .book-right .page-right {
+    height: 100%;
+    background-image: url(../img/book-down.png);
+    padding: 36px 48px 0px 48px;
+  }
+  main .work .book .book-page .page-doodle1 {
+    display: none;
+  }
+  main .work .book .book-page .page-doodle2 {
+    display: none;
+  }
+  main .work .book .book-page .page-content .page-img {
+    width: 80%;
+    margin: 0 auto;
+    height: 140px;
+  }
+  main .work .book .book-page .page-content .page-text .page-url {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  main .work .book .book-page .page-content .page-text .page-url .tags {
+    margin-top: 0;
+  }
+  main .work .book .book-page .page-content .page-text .page-url a {
+    margin-top: 0;
+  }
+  main .work #prev {
+    left: 50%;
+    top: 5%;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%) rotate(90deg);
+    z-index: 10;
+  }
+  main .work #next {
+    left: 50%;
+    top: 105%;
+    cursor: pointer;
+    position: absolute;
+    transform: translateX(-50%) rotate(90deg);
+    z-index: 10;
+  }
+  main .skill {
+    padding: 16px 0;
+  }
+  main .skill .balls-group {
+    gap: 0;
+    justify-content: space-between;
+  }
+  main .skill .balls-group .balls .skill-list ul {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  main .skill .balls-group .balls .skill-list ul li {
+    font-size: 12px;
+    margin-left: 16px;
+  }
+  main .skill .room {
+    height: 500px;
+  }
+  main .skill .room .car {
+    width: 60px;
+  }
+  main .contact {
+    padding: 16px 0;
+  }
+  main .contact .contact-panel {
+    padding: 32px 16px;
+  }
+  main .contact .contact-panel .en {
+    font-size: 16px;
+  }
+  main .contact .contact-panel .jp {
+    font-size: 14px;
+  }
+  main .contact .contact-panel label .label-title {
+    margin-top: 16px;
+  }
+  .animation-turn-page {
+    animation: turn-page-updown 1s forwards ease-in-out;
+  }
+  .animation-turn-page-reverse {
+    animation: turn-page-updown 1s forwards reverse;
+  }
+  .to-top {
+    width: 60px;
+  }
+}
