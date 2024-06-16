@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: "Kavoon", serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .en {
@@ -287,18 +289,16 @@ main .work {
 main .work .book-bg {
   width: 80%;
   max-width: 960px;
-  left: 50%;
-  transform: translateX(-30%);
+  right: 0%;
 }
 main .work .flower {
   z-index: 1;
   top: 15%;
-  left: 50%;
-  transform: translateX(300%);
+  right: 0%;
   transition: 3s;
 }
 main .work .flower:hover {
-  transform: translateX(300%) rotate(360deg);
+  transform: rotate(360deg);
 }
 main .work .gross {
   z-index: 1;
@@ -435,16 +435,17 @@ main .work .arrow img {
   object-fit: contain;
 }
 main .work #prev {
-  top: 50%;
+  top: 60%;
   left: 32px;
 }
 main .work #next {
-  top: 50%;
+  top: 60%;
   right: 32px;
 }
 main .skill {
   background: #FBB428;
   padding: 64px 0;
+  overflow-x: hidden;
 }
 main .skill .balls-group {
   display: flex;
